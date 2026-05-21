@@ -128,7 +128,7 @@ async function chatGoogle(message, history) {
   if (!apiKey) throw new Error("Missing GENAI_API_KEY in .env");
 
   const client = new GoogleGenAI({ apiKey });
-  const model = process.env.GENAI_MODEL || "gemini-2.0-flash";
+  const model = process.env.GENAI_MODEL || "gemini-2.5-flash";
   const contents = [];
 
   for (const turn of history.slice(0, -1)) {
@@ -180,7 +180,7 @@ app.get("/api/health", (_req, res) => {
     genai_configured: !!cfg.apiKey,
     genai_error: cfg.error || null,
     provider: useOpenAiProvider() ? "openai" : "google",
-    model: cfg.model || process.env.GENAI_MODEL || "gemini-2.0-flash",
+    model: cfg.model || process.env.GENAI_MODEL || "gemini-2.5-flash",
     api_base: cfg.base || null,
   });
 });

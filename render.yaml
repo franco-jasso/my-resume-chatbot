@@ -12,6 +12,6 @@ services:
       - key: GENAI_PROVIDER
         value: google
       - key: GENAI_MODEL
-        value: gemini-2.0-flash
+        value: gemini-2.5-flash
       - key: GENAI_API_KEY
         sync: false
