@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Franco Ángel Jasso Osorio — Mechatronics Engineer. Portfolio: PwC Tax Innovation, robotics, automation, and Python." />
+  <title>Franco Ángel Jasso Osorio | Mechatronics Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <nav class="nav__links" aria-label="Main">
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#technical-skills">Technical</a>
+      <a href="#soft-skills">Soft skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button type="button" class="nav__cta" data-open-chat>AI Assistant</button>
+  </header>
+
+  <main>
+    <section class="hero reveal" id="top">
+      <p class="hero__eyebrow">Mechatronics Engineering · UNAM</p>
+      <h1 class="hero__title">Franco Ángel Jasso Osorio</h1>
+      <p class="hero__subtitle">
+        Mechatronics engineer with a strong programming foundation (Python, C++), ROS robotics,
+        and embedded systems. Currently interning at PwC Mexico in Tax Innovation.
+      </p>
+      <div class="hero__actions">
+        <a href="#experience" class="btn btn--primary">View experience</a>
+        <button type="button" class="btn btn--ghost" data-open-chat>
+          <span class="btn__play" aria-hidden="true">▶</span>
+          Ask me with AI
+        </button>
+      </div>
+
+      <div class="hero__cards">
+        <article class="card card--balance">
+          <div class="card__header">
+            <span class="card__label">Experience</span>
+            <span class="card__badge">Current</span>
+          </div>
+          <div class="card__value card__value--logo">
+            <img src="assets/pwc-logo.png" alt="PwC" class="logo-pwc logo-pwc--full" width="120" height="48" />
+            <span class="card__unit">Mexico</span>
+          </div>
+          <p class="card__meta">Tax Innovation · Current role</p>
+        </article>
+
+        <article class="card card--chart">
+          <div class="card__header">
+            <span class="card__label">Technical skills</span>
+          </div>
+          <div class="chart" role="img" aria-label="Skill bars">
+            <div class="chart__bar" style="--h: 45%"><span>ROS</span></div>
+            <div class="chart__bar" style="--h: 55%"><span>C++</span></div>
+            <div class="chart__bar chart__bar--active" style="--h: 92%">
+              <span class="chart__star" aria-hidden="true">★</span>
+              <span>Python</span>
+              <em class="chart__highlight">Core</em>
+            </div>
+            <div class="chart__bar" style="--h: 60%"><span>SQL</span></div>
+            <div class="chart__bar" style="--h: 50%"><span>Git</span></div>
+          </div>
+        </article>
+
+        <div class="hero__stack">
+          <article class="card card--mini">
+            <div class="card__mini-icon card__mini-icon--img card__mini-icon--unam">
+              <img src="assets/unam-escudo.svg" alt="UNAM coat of arms" width="52" height="52" />
+            </div>
+            <div>
+              <p class="card__label">Education</p>
+              <p class="card__mini-value">UNAM <span class="accent">2025</span></p>
+            </div>
+            <span class="pill pill--blue">Mechatronics</span>
+          </article>
+          <article class="card card--mini">
+            <div class="card__mini-icon card__mini-icon--img card__mini-icon--umons">
+              <img src="assets/umons-logo.png" alt="UMONS logo" width="52" height="52" />
+            </div>
+            <div>
+              <p class="card__label">Exchange</p>
+              <p class="card__mini-value">UMons <span class="accent">Belgium</span></p>
+            </div>
+            <span class="pill pill--green">2025</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <h2 class="section__title reveal">Professional experience</h2>
+      <div class="timeline">
+        <article class="timeline__item reveal">
+          <div class="timeline__meta">
+            <h3>PwC Mexico — Tax Innovation</h3>
+            <span class="timeline__role">Intern</span>
+            <time datetime="2026-02">Feb 2026 – Present</time>
+          </div>
+          <ul>
+            <li>Current role supporting innovation initiatives within the Tax practice.</li>
+            <li>Applying engineering and programming skills in a professional services environment.</li>
+          </ul>
+        </article>
+        <article class="timeline__item reveal">
+          <div class="timeline__meta">
+            <h3>Biorobotics Laboratory</h3>
+            <span class="timeline__role">Intern</span>
+            <time datetime="2025-07/2025-12">Jul 2025 – Dec 2025</time>
+          </div>
+          <ul>
+            <li>Designed and programmed a retractable column module for a service robot (Python, C++, ROS).</li>
+            <li>Managed code with Git and collaborated on robotics software.</li>
+            <li>Modeling and manufacturing of components.</li>
+          </ul>
+        </article>
+        <article class="timeline__item reveal">
+          <div class="timeline__meta">
+            <h3>CIA — Advanced Engineering Center</h3>
+            <span class="timeline__role">Intern</span>
+            <time datetime="2024/2025">2024 – 2025</time>
+          </div>
+          <ul>
+            <li>Self-balancing mobile robot on a sphere.</li>
+            <li>Sensor acquisition, Python control, power electronics, and microcontroller.</li>
+            <li>Integration of actuators, power stages, and sensors.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="edu-carousel section--alt reveal" id="education">
+      <div class="edu-carousel__header">
+        <h2 class="edu-carousel__title">Education</h2>
+      </div>
+      <div class="edu-carousel__frame">
+        <button type="button" class="edu-carousel__btn edu-carousel__btn--edge edu-carousel__btn--prev" id="eduPrev" aria-label="Previous education" disabled>
+          <span aria-hidden="true">←</span>
+        </button>
+        <div class="edu-carousel__viewport">
+          <div class="edu-carousel__track" id="eduTrack">
+          <article class="edu-slide">
+            <div class="edu-slide__content">
+              <h3>UNAM — Mechatronics Engineering</h3>
+              <time datetime="2020/2025">2020 – 2025</time>
+              <p>Physics, programming, control, thermodynamics, electronics, and automation. Web project with Flask, SQLite, and comment management. PLCs and Ladder Logic.</p>
+            </div>
+            <div class="edu-slide__visual">
+              <img src="assets/unam-escudo.svg" alt="UNAM" width="100" height="100" />
+            </div>
+          </article>
+          <article class="edu-slide">
+            <div class="edu-slide__content">
+              <h3>UMons — Academic exchange</h3>
+              <time datetime="2025-01/2025-06">Jan – Jun 2025 · Belgium</time>
+              <p>Hydraulic and pneumatic valve systems; intercultural teams in English; French in a native environment.</p>
+            </div>
+            <div class="edu-slide__visual">
+              <img src="assets/umons-logo.png" alt="UMONS" width="120" height="48" />
+            </div>
+          </article>
+          <article class="edu-slide">
+            <div class="edu-slide__content">
+              <h3>UNAM — Technical diploma in informatics</h3>
+              <time datetime="2018/2020">2018 – 2020</time>
+              <p>C, Python, Arduino, Linux, and design tools.</p>
+            </div>
+            <div class="edu-slide__visual">
+              <img src="assets/unam-escudo.svg" alt="UNAM" width="100" height="100" />
+            </div>
+          </article>
+          </div>
+        </div>
+        <button type="button" class="edu-carousel__btn edu-carousel__btn--edge edu-carousel__btn--next edu-carousel__btn--active" id="eduNext" aria-label="Next education">
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+      <div class="edu-carousel__dots" id="eduDots" aria-hidden="true"></div>
+    </section>
+
+    <section class="tech-skills reveal" id="technical-skills">
+      <h2 class="tech-skills__title">Technical skills</h2>
+      <p class="tech-skills__subtitle">Tools and technologies I use for web development, data, and software projects.</p>
+      <ul class="tech-skills__grid">
+        <li class="tech-skills__item">JavaScript</li>
+        <li class="tech-skills__item">TypeScript</li>
+        <li class="tech-skills__item">Git</li>
+        <li class="tech-skills__item">HTML</li>
+        <li class="tech-skills__item">CSS</li>
+        <li class="tech-skills__item">React</li>
+        <li class="tech-skills__item">HTTP</li>
+        <li class="tech-skills__item">.NET</li>
+        <li class="tech-skills__item">SQL</li>
+      </ul>
+    </section>
+
+    <section class="features reveal" id="soft-skills">
+      <h2 class="features__title">Soft skills</h2>
+      <p class="features__subtitle">
+        Interpersonal strengths I bring to multidisciplinary and client-facing teams.
+      </p>
+      <div class="features__grid">
+        <article class="feature">
+          <div class="feature__icon" aria-hidden="true">⏱️</div>
+          <h3>Time management</h3>
+          <p>Organized delivery of tasks and priorities across academic, lab, and professional projects.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon" aria-hidden="true">🎯</div>
+          <h3>Discipline</h3>
+          <p>Consistent focus on quality, deadlines, and continuous improvement in technical work.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon" aria-hidden="true">💬</div>
+          <h3>Communication</h3>
+          <p>Clear written and spoken communication in English, Spanish, and French in diverse settings.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon" aria-hidden="true">📚</div>
+          <h3>Self-learner</h3>
+          <p>Fast adoption of new tools, languages, and technologies with minimal supervision.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon" aria-hidden="true">🤝</div>
+          <h3>Teamwork</h3>
+          <p>Effective collaboration in multicultural teams in Mexico, Belgium, and corporate environments.</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon" aria-hidden="true">🔄</div>
+          <h3>Adaptability</h3>
+          <p>Comfort adjusting to new domains, from robotics labs to tax innovation at PwC.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats reveal">
+      <h2 class="stats__title">Languages</h2>
+      <p class="stats__subtitle">Proficiency levels for professional and academic communication.</p>
+      <div class="stats__grid stats__grid--languages">
+        <div class="stat stat--language">
+          <div class="stat__flags" aria-hidden="true">
+            <img src="https://flagcdn.com/w80/us.png" alt="" width="56" height="42" loading="lazy" />
+          </div>
+          <p class="stat__lang-name">English</p>
+          <p class="stat__label">C1</p>
+        </div>
+        <div class="stat stat--language">
+          <div class="stat__flags" aria-hidden="true">
+            <img src="https://flagcdn.com/w80/fr.png" alt="" width="56" height="42" loading="lazy" />
+          </div>
+          <p class="stat__lang-name">French</p>
+          <p class="stat__label">B2</p>
+        </div>
+        <div class="stat stat--language">
+          <div class="stat__flags" aria-hidden="true">
+            <img src="https://flagcdn.com/w80/mx.png" alt="" width="56" height="42" loading="lazy" />
+          </div>
+          <p class="stat__lang-name">Spanish</p>
+          <p class="stat__label">Native</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer reveal" id="contact">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#top" class="footer__brand-link">
+            <span class="footer__monogram" aria-hidden="true">FJ</span>
+            <span class="footer__name">Franco Jasso</span>
+          </a>
+          <p class="footer__tagline">Mechatronics · Robotics · Innovation</p>
+        </div>
+
+        <nav class="footer__col" aria-label="Site links">
+          <h3 class="footer__heading">Links</h3>
+          <ul class="footer__list">
+            <li><a href="#top">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#technical-skills">Technical skills</a></li>
+            <li><a href="#soft-skills">Soft skills</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Contact</h3>
+          <ul class="footer__list footer__list--icons">
+            <li>
+              <a href="mailto:franco.angel.jasso@pwc.com">
+                <svg class="footer__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+                franco.angel.jasso@pwc.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+525560171790">
+                <svg class="footer__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M6.5 4h3l1.5 5-2 1.2a12 12 0 005.3 5.3L15.5 14l5 1.5v3a1.5 1.5 0 01-1.6 1.5C9.2 20 4 14.8 4 7.1A1.5 1.5 0 015.5 4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+                +52 55 60171790
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/francojasso" target="_blank" rel="noopener noreferrer">
+                <svg class="footer__icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M4.5 4.5h3.2v3.2H4.5V4.5zM4.5 9.2h3.2v10.3H4.5V9.2zm5.4 0h3.1v1.4c.6-.9 1.5-1.6 3.2-1.6 3.4 0 4 2.2 4 5.1v5.4h-3.2v-4.8c0-1.1 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5v4.9H9.9V9.2z"/>
+                </svg>
+                LinkedIn
+              </a>
+            </li>
+            <li class="footer__list-item--static">
+              <svg class="footer__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21s7-4.5 7-11a7 7 0 10-14 0c0 6.5 7 11 7 11z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              Mexico City, Mexico
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Franco Jasso. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="chat-fab" id="chatFab" aria-label="Open assistant" title="Ask about my career">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 3C7.03 3 3 6.58 3 11c0 2.13 1.05 4.05 2.74 5.45L5 21l4.55-2.1C10.28 19.3 11.12 19.5 12 19.5c4.97 0 9-3.58 9-8s-4.03-8-9-8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <div class="chat-overlay" id="chatOverlay" hidden>
+    <div class="chat-modal" role="dialog" aria-labelledby="chatTitle" aria-modal="true">
+      <header class="chat-header">
+        <div>
+          <h2 id="chatTitle">Career assistant</h2>
+          <p>Ask about Franco’s experience and background</p>
+        </div>
+        <button type="button" class="chat-close" id="chatClose" aria-label="Close chat">×</button>
+      </header>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-msg chat-msg--bot">
+          <p>Hi, I’m Franco’s assistant. Ask me about his robotics experience, education, technical skills, or languages.</p>
+        </div>
+      </div>
+      <form class="chat-form" id="chatForm">
+        <input type="text" id="chatInput" placeholder="e.g. What did he do at the biorobotics lab?" autocomplete="off" required />
+        <button type="submit" class="btn btn--primary" id="chatSend">Send</button>
+      </form>
+      <p class="chat-hint" id="chatHint"></p>
+    </div>
+  </div>
+
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/edu-carousel.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

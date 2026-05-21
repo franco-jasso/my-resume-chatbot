@@ -1,0 +1,17 @@
+# https://render.com — despliegue automático desde GitHub
+services:
+  - type: web
+    name: franco-jasso-portfolio
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: GENAI_PROVIDER
+        value: google
+      - key: GENAI_MODEL
+        value: gemini-2.0-flash
+      - key: GENAI_API_KEY
+        sync: false

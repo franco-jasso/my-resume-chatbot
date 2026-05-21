@@ -1,0 +1,92 @@
+{
+  "name": "Franco Ángel Jasso Osorio",
+  "title": "Mechatronics Engineering",
+  "location": "Mexico City, Mexico",
+  "email": "franco.angel.jasso@pwc.com",
+  "phone": "+52 55 60171790",
+  "linkedin": "https://www.linkedin.com/in/francojasso",
+  "summary": "Mechatronics Engineering (UNAM) with a strong programming background, specializing in Python for data-driven applications. Experienced building automated systems and integrating hardware with software solutions. Skilled programmer and fast learner of new programming languages. Strong background in Python and medium experience using SQL, machine learning, APIs and Git. Participated in projects with multicultural teams during an academic exchange in Belgium. Strong written and spoken communication skills in English in both academic and professional contexts.",
+  "currentRole": {
+    "company": "PwC Mexico",
+    "area": "Tax Innovation",
+    "role": "Intern",
+    "period": "February 2026 – Present (current role)",
+    "description": "Current internship supporting innovation initiatives within the Tax practice."
+  },
+  "experience": [
+    {
+      "company": "PwC Mexico",
+      "role": "Intern",
+      "department": "Tax Innovation",
+      "period": "February 2026 – Present (current role)",
+      "highlights": [
+        "Current role supporting innovation initiatives within the Tax practice.",
+        "Applying engineering and programming skills in a professional services environment."
+      ]
+    },
+    {
+      "company": "Biorobotics Laboratory",
+      "role": "Intern",
+      "period": "July 2025 – December 2025",
+      "highlights": [
+        "Designed and programmed a retractable column module for a service robot using Python and C++, integrating communication protocols between subsystems via ROS topics and services.",
+        "Managed source code with Git, maintaining version history and enabling team collaboration on robotics software.",
+        "Modelling and manufacturing of the components."
+      ]
+    },
+    {
+      "company": "CIA (Centro de Ingeniería Avanzada)",
+      "role": "Intern",
+      "period": "2024 – 2025",
+      "highlights": [
+        "Developed a mobile robot capable of self-balancing on a sphere.",
+        "Sensor data acquisition, control algorithms in Python, power electronics, and microcontroller.",
+        "Integration of actuators, power stages, sensors and a microcontroller."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNAM",
+      "degree": "Mechatronics Engineering",
+      "period": "2020 – 2025",
+      "highlights": [
+        "Strong foundation in physics, programming, control, thermodynamics, electronics and automation.",
+        "Built a Flask website integrating HTML, CSS, JavaScript and SQLite for museum information and visitor comments.",
+        "Worked with PLCs and Ladder Logic."
+      ]
+    },
+    {
+      "institution": "UMons (Belgium)",
+      "degree": "Exchange program",
+      "period": "January – June 2025",
+      "highlights": [
+        "Worked with automation systems involving hydraulic and pneumatic valves.",
+        "Participated in intercultural teams where English was the common language.",
+        "Refined French proficiency in a native environment."
+      ]
+    },
+    {
+      "institution": "UNAM",
+      "degree": "Technical diploma in informatics",
+      "period": "2018 – 2020",
+      "highlights": [
+        "Learned C programming, Python, Arduino; worked on Linux and Photoshop."
+      ]
+    }
+  ],
+  "technicalSkills": [
+    "JavaScript", "TypeScript", "Git", "HTML", "CSS", "React", "HTTP", ".NET", "SQL",
+    "Python", "C++", "ROS", "Linux", "Flask", "Machine learning", "APIs",
+    "Electronics", "PLCs / Ladder Logic"
+  ],
+  "softSkills": [
+    "Time management", "Disciplined", "Efficient communicator", "Self-learner",
+    "Written and spoken English", "Teamwork and collaboration", "Adaptability"
+  ],
+  "languages": [
+    { "name": "Spanish", "level": "Native" },
+    { "name": "English", "level": "C1" },
+    { "name": "French", "level": "B2" }
+  ]
+}
